@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual envs
+venv/
+.venv/
+backend/venv/
+
+# Env files
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+backend/backend.log
+
+# Build/cache
+.pytest_cache/
+.mypy_cache/
+.DS_Store
